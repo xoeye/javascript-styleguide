@@ -50,6 +50,7 @@ components/
 
 - Do not place the modifier words at the beginning of the component name. Although it may read more like plain english this way, it will cause your components to be unorganized in the code editor, as well as increase the possibility of naming conflicts.
 
+<!-- These are bad examples from a previous styleguide, TODO: grab better examples from Vision codebase -->
 ```
 👎 BAD 
 components/ 
