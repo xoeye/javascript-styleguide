@@ -15,9 +15,11 @@ An opinionated and adequately reasonable guide to writing JavaScript
 
 #### kebab-case
 
-- Directory names should be kebab-case
-<!-- TODO: maybe not?  most of our files are camelCase -->
-- Non-component javascript files
+- Directory names
+
+#### camelCase
+
+- Utility files
 
 ### Booleans
 
