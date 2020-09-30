@@ -4,7 +4,7 @@ An opinionated and adequately reasonable guide to writing JavaScript
 
 ## Naming
 
-### Files
+### File/Directory naming standards
 
 #### PascalCase
 
@@ -21,7 +21,7 @@ An opinionated and adequately reasonable guide to writing JavaScript
 
 - Utility files
 
-### Booleans
+### Boolean naming standards
 
 Boolean variables should be prefixed with "is", "has", "should", or another similar modal auxiliary verb.
 
@@ -73,8 +73,20 @@ components/
   SettingsCheckboxLaunchOnStartup.js
 ```
 
+---
+
 ## Directory structure
 
 ### Each component folder or subfolder should have tests and stories folders
 <!-- We may consider using a `__stories__` folder instead? -->
-- Each folder containing component files should contain a `__tests__` folder and a `stories` folder.
+- Each folder containing component files should contain a `__tests__` folder and a `__stories__` folder.
+
+---
+
+## Exports
+
+### Prefer named exports
+
+Prefer using named over default exports whenever possible. Named exports have the benefit of making sure that variable names are searcheable throughout the codebase and removes the possibility of renaming on import. This concept is also known as passing the [Grep Test](http://jamie-wong.com/2013/07/12/grep-test/). 
+
+There are many instances in our existing codebase that commonly use default exports. Therefore, in any new code named exports should be used, and default exports should be converted to named when appropriate. 
