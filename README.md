@@ -28,12 +28,12 @@
 
 ### Boolean naming standards
 
-Boolean variables should be prefixed with "is", "has", "should", or another similar modal auxiliary verb.
+- Boolean variables should be prefixed with "is", "has", "should", or another similar modal auxiliary verb.
 
 ### Function naming standards
 
-- Event Functions - functions called by an event should be prefaced with the word `on`. (i.e. If there is an `onChange` event on an element or component, the function passed as the `onChange` prop should be be something _like_ `onInputChange`)
-- Return Functions - functions that return a value should generally be prefaced with `get`. (i.e. If a function returns an object of Knowledgebase Collections, the function would be called `getKbCollections` while the value returned could be stored as `kbCollections`, like `const kbCollections = getKbCollections()`)
+- **Event Functions** - functions called by an event should be prefaced with the word `on`. (i.e. If there is an `onChange` event on an element or component, the function passed as the `onChange` prop should be be something _like_ `onInputChange`)
+- **Return Functions** - functions that return a value should generally be prefaced with `get`. (i.e. If a function returns an object of Knowledgebase Collections, the function would be called `getKbCollections` while the value returned could be stored as `kbCollections`, like `const kbCollections = getKbCollections()`)
 
 ### Component naming standards
 
