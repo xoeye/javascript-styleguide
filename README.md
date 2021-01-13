@@ -21,6 +21,11 @@ An opinionated and adequately reasonable guide to writing JavaScript
 
 - Utility files
 
+#### MACRO_CASE
+
+- String constants
+- Number constants
+
 ### Boolean naming standards
 
 Boolean variables should be prefixed with "is", "has", "should", or another similar modal auxiliary verb.
